@@ -17,7 +17,7 @@ E para quem estiver utilizando um computador que não consiga rodar a rede YOLO,
 O trabalho deve conter pelo menos duas classes retreinadas para detecção, além das classes já treinadas previamente antes de realizar o transfer learning.  
  
 Por meio da imagem é possível visualizar um exemplo de resultado esperado: 
-![YOLO Detection](./Screenshot%202023-06-15%20170644.pngSc)
+![YOLO Detection](./Screenshot%202023-06-15%20170644.png)
 Figura 1: Detecção em imagens com a rede YOLO. 
 
 ## Slides
