@@ -1,0 +1,27 @@
+# Passo 1: Coleta de dados
+# Aqui você precisa coletar as imagens relevantes para as classes que deseja treinar
+
+# Passo 2: Anotação dos dados
+# Anote manualmente as imagens para fornecer informações sobre a localização dos objetos de interesse
+# Utilize ferramentas como o LabelImg ou RectLabel para anotar as imagens
+
+# Passo 3: Preparação dos dados
+# Organize as imagens anotadas e suas anotações em um formato adequado para treinar a rede YOLO
+# O formato COCO é comumente usado
+
+# Passo 4: Treinamento do modelo
+# Inicialize o modelo YOLO com pesos pré-treinados em um grande conjunto de dados, como o COCO
+
+# Passo 5: Ajuste fino (fine-tuning)
+# Ajuste os pesos da rede YOLO usando seu conjunto de dados personalizado
+# Passe as imagens anotadas pelo modelo e atualize os pesos com base nas diferenças entre as previsões e as anotações
+
+# Passo 6: Avaliação do modelo
+# Avalie o desempenho do modelo usando um conjunto de dados de teste separado
+# Ajuste os hiperparâmetros conforme necessário para otimizar o desempenho
+
+# Passo 7: Inferência e detecção
+# Use o modelo treinado para fazer detecções em novas imagens ou vídeos
+
+# Observação: Este exemplo contém apenas a estrutura geral do processo.
+# Cada passo requer implementação específica e pode variar dependendo das bibliotecas/frameworks utilizados.
